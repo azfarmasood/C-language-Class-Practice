@@ -28,9 +28,11 @@ int main() {
     printf("Enter Your Second Number: ");
     scanf("%d", &number2);
 
-    // Sum of two numbers input;
+    // Sum of two numbers output:
+    // This is simple approach
+    printf("%d\n", number1 + number2);
+    // or you can use this approach as well:
     int result = number1 + number2;
-
     printf("%d", result);
     
 
