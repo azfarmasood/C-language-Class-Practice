@@ -42,17 +42,17 @@ int main() {
             printf("Your Multiplication Result is: %d", multiply);
         }
         else if (oprations == '/'){
-           int div = number1 / number2;
-
-           printf("%d", div);
+        if (number1 % number2 == 0) {
+            // This will be print for non decimal vlaues
+            int divInt = number1 / number2;
+            printf("Result: %d\n", divInt);
+        } else {
+            // This will be print with decimal values
+            float divFloat = (float)number1 / number2;
+            printf("Result: %.2f\n", divFloat);
         }
+    }
+    // char data[] = "+923456789";
 
-        // char data[] = "+923456789";
-
-        // printf("%s", data);
-
-
-
-
-
+    // printf("%s", data);
 }
