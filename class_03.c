@@ -16,13 +16,16 @@ int main() {
     printf("Enter Your Operations (+, -, *, /): ");
     scanf(" %c", &oprations);
 
-    //1. ASSIGNMENT OPRATORS:
+    //1. ARTHMETIC OPRATORS:
     // +, -, *, /, %, //;
 
-    //2. Comparasion OPRATORS:
+    //2. ASSIGNMENT OPRATORS:
+    // +=, -=, /=, *=;
+
+    //3. Comparasion OPRATORS:
     // ==, !=, >, <, >=, <=;
 
-    // 3. LOGICAL OPERATORS:
+    //4. LOGICAL OPERATORS:
     
 
     // Conditional Logic ya Decision making.
@@ -44,12 +47,12 @@ int main() {
         else if (oprations == '/'){
         if (number1 % number2 == 0) {
             // This will be print for non decimal vlaues
-            int divInt = number1 / number2;
-            printf("Result: %d\n", divInt);
+            int div = number1 / number2;
+            printf("Result: %d\n", div);
         } else {
             // This will be print with decimal values
-            float divFloat = (float)number1 / number2;
-            printf("Result: %.2f\n", divFloat);
+            float div = (float)number1 / number2;
+            printf("Result: %.2f\n", div);
         }
     }
     // char data[] = "+923456789";
