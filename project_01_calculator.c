@@ -11,13 +11,13 @@ int main() {
     if(scanf("%d\n", &number1) != 1 ){
 
         printf("Invalid Characters!\n");
-        return 0; 
+        return 1; 
     }
     printf("Enter Your Second Number: ");
     
     if(scanf("%d\n", &number2) != 1) {
         printf("Invalid Character For Second Number!\n");
-        return 0; 
+        return 1; 
     }
 
 
