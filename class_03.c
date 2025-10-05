@@ -11,7 +11,7 @@ int main() {
         do {
             printf("Enter Your First Number: ");
             
-            if(scanf("%d", &number1) != 1){ // ismain hum input lai rhai hain  user sai number1 jo kai integer main jarha hai for example value di hum nai 1, 2, 4, 6
+            if(scanf("%d", &number1) != 1){ // ismain hum input lai rhai hain  user sai number1 jo kai integer main     jarha hai for example value di hum nai 1, 2, 4, 6
                 printf("Invalid Characters!\n");
                 return 1; // this return is defined for sending message for OS means Oprating System if your value is incorrect the program will stop here if you not add the return key word it will not stop your program it will continue to execute;
             }
