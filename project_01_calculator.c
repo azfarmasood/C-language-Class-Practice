@@ -49,7 +49,7 @@ int main() {
                     printf("%.2f\n", (float) number1 / number2);
                 }
             }
-
+                                                                //  012 01
             printf("Would you like to continue this program again? (Yes/No) ");
             scanf("%s", &choice);
 
